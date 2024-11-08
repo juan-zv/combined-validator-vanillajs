@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛠️Combined Validator HTML & CSS🛠️</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <meta name="author" content="Juan Zurita">
+    <meta name="description" content="This is a VanillaJS tool to validate HTML and CSS of multiple URLs at once.">
+    <meta name="keywords" content="HTML, CSS, Validator, Tool, VanillaJS, Juan Zurita, HTML & CSS">
+
+    <meta property="og:title" content="🛠️Combined Validator HTML & CSS🛠️">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="This is a VanillaJS tool to validate HTML and CSS of multiple URLs at once.">
+    <meta property="og:url" content="https://html-css-validator.juanzurita.com/">
+    <meta property="og:image" content="https://html-css-validator.juanzurita.com/og-image.png">
+</head>
+<body>
+    <header>
+        <img src="tool.png" alt="tool-icon">
+
+        <h1>Combined Validator HTML & CSS</h1>
+        
+        <nav>
+            <a rel="noopener" href="https://juanzurita.dev" target="_blank">Juan Zurita</a>
+            <a rel="noopener" href="https://linkedin.com/in/juanzuritavasquez" target="_blank">LinkedIn</a>
+            <a rel="noopener" href="https://github.com/juan-zv" target="_blank">GitHub</a>
+        </nav>
+    </header>
+    <main>
+        <h2>HTML & CSS Validator</h2>
+    
+        <section class="input-group">
+            <h3>Enter URLs (one per line):</h3>
+            <textarea id="urlInput" placeholder="https://example.com&#10;https://example.com/page2"></textarea>
+            <button type="button" id="validateBtn" onclick="startValidation()">Validate URLs</button>
+            <span id="loadingIndicator" class="loading hidden"></span>
+        </section>
+    
+        <section id="results" class="results">
+        </section>
+    </main>
+    <footer>            
+        <p>Created by <a rel="noopener" href="https://juanzurita.dev" target="_blank">Juan Zurita</a></p>
+        <p>HTML Validator API property of <a rel="noopener" href="https://validator.w3.org/" target="_blank">W3C</a></p>
+        <p>CSS Validator API property of <a rel="noopener" href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C</a></p>
+        <p><a rel="noopener" target="_blank" href="https://icons8.com/icon/11219/tools">Tool</a> icon by <a rel="noopener" target="_blank" href="https://icons8.com">Icons8</a></p>
+    </footer>
+</body>
+</html>
