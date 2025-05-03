@@ -139,7 +139,7 @@ button:disabled {
     border-left: 4px solid var(--success-color)
 }
 
-.result-item h2 {
+.result-item h3 {
     margin: 0;
     font-size: 1.5rem;
     word-wrap: break-word;
